@@ -44,7 +44,7 @@ else {
 ##### JavaScript
 
 ```javascript
-else if (a > a) {
+else if (a > b) {
   return 'É maior!';
 }
 ```
