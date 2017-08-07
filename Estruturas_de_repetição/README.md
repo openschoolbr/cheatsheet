@@ -28,3 +28,12 @@ for ($i = 1; ; $i++) {
 
 for ($i = 1, $j = 0; $i <= 10; $j += $i, print "Mostrar $i = ".$i." passando como parâmetro da função for", $i++);
 ```
+
+##### Python
+```python
+    
+    # faça enquanto x for menor que 10
+    for x in xrange(1, 10):
+	    print x
+
+```
