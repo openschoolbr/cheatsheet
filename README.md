@@ -12,9 +12,48 @@ Aplicando a mesma lógica em diversas linguagens.
 ##### JavaScript
 
 ```javascript
-function (a) {
-  return a;
+var foo = function (a) {
+  return a
 }
+
+// Ou
+
+let foo = (a) => a
+
+// Ou
+
+let foo = (a) => { return a }
+
+// Ou
+
+function foo (a) {
+  return a
+}
+```
+
+##### PHP
+
+```php
+$foo = function ($a) { return $a; };
+
+// Ou
+
+function foo($a) {
+  return $a;
+}
+```
+
+##### Java
+
+```java
+public int foo(int a) { return a; } // O tipo `int` pode variar para qualquer outro tipo
+```
+
+##### Python
+
+```python
+def foo(a):
+  return a
 ```
 
 ### Expressões Condicionais
@@ -25,7 +64,15 @@ function (a) {
 
 ```javascript
 if (a === b) {
-  return 'É igual!';
+  return 'É igual!'
+}
+```
+
+##### PHP
+
+```php
+if ($a === $b) {
+  return "É igual!";
 }
 ```
 
@@ -35,7 +82,15 @@ if (a === b) {
 
 ```javascript
 else {
-  return 'Não é igual!';
+  return 'Não é igual!'
+}
+```
+
+##### PHP
+
+```php
+else {
+  return "Não é igual!";
 }
 ```
 
@@ -46,6 +101,20 @@ else {
 ```javascript
 else if (a > b) {
   return 'É maior!';
+}
+```
+
+##### PHP
+
+```php
+else if ($a > $b) {
+  return "É maior!";
+}
+
+// Ou
+
+elseif ($a > $b) {
+  return "É maior!";
 }
 ```
 
