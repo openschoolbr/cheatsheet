@@ -3,9 +3,9 @@ Aplicando a mesma lógica em diversas linguagens.
 
 ## Sumário
 
-- [Declaração de funções](#declaracao-de-funcoes)
-- [Expressões Condicionais](#expressoes-condicionais)
-- [Estruturas de Repetição](#estruturas-de-repeticao)
+- [Declaração de funções](#declaração-de-funções)
+- [Expressões Condicionais](#expressões-condicionais)
+- [Estruturas de Repetição](#estruturas-de-repetição)
 
 ### Declaração de funções
 
