@@ -120,8 +120,9 @@ elseif ($a > $b) {
 
 ### Estruturas de repetição
 
-#### for
+#### For
 
+##### PHP
 ```php
 
 for ($i = 1; $i <= 10; $i++) {
@@ -148,7 +149,7 @@ for ($i = 1; ; $i++) {
 for ($i = 1, $j = 0; $i <= 10; $j += $i, print "Mostrar $i = ".$i." passando como parâmetro da função for", $i++);
 ```
 
-#### while
+#### While
 
 ## To Do
 
