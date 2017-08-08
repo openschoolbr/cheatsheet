@@ -49,6 +49,13 @@ function foo($a) {
 public int foo(int a) { return a; } // O tipo `int` pode variar para qualquer outro tipo
 ```
 
+##### Python
+
+```python
+def foo(a):
+  return a
+```
+
 ##### C#
 
 ```cs
@@ -60,13 +67,6 @@ public string foo(int a){
   a;
   return a.ToString();
 }
-```
-
-##### Python
-
-```python
-def foo(a):
-  return a
 ```
 
 ### Expressões Condicionais
