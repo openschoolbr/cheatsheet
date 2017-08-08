@@ -49,6 +49,19 @@ function foo($a) {
 public int foo(int a) { return a; } // O tipo `int` pode variar para qualquer outro tipo
 ```
 
+##### C#
+
+```cs
+public string foo(int a) => a.ToString();
+
+//ou
+
+public string foo(int a){
+  a;
+  return a.ToString();
+}
+```
+
 ##### Python
 
 ```python
@@ -76,6 +89,14 @@ if ($a === $b) {
 }
 ```
 
+##### C#
+
+```cs
+if(a == b) {
+    return "É igual!";
+}
+```
+
 #### Else
 
 ##### JavaScript
@@ -91,6 +112,14 @@ else {
 ```php
 else {
   return "Não é igual!";
+}
+```
+
+##### C#
+
+```cs
+else {
+    return "Não é igual!";
 }
 ```
 
@@ -118,6 +147,31 @@ elseif ($a > $b) {
 }
 ```
 
+ ##### C#
+
+```cs
+else if (a > b) {
+    return "É maior!";
+}
+```
+
+#### Switch
+
+##### C#
+
+```cs
+switch(valor){
+    case 1:
+        //faz algo se valor igual 1
+        break;
+    case 2:
+        //faz algo se valor igual 2
+        break;
+    default:
+        //faz algo se não for igual a 1 nem a 2
+        break;
+ }
+ ```
 ### Estruturas de repetição
 
 #### For
@@ -126,19 +180,19 @@ elseif ($a > $b) {
 
 ```php
 
-for ($i = 1; $i <= 10; $i++) {
+for ($i = 1; $i <= 10; $i) {
     echo "Faça enquanto $i for menor ou igual a 10";
 }
 
 // Ou
 
-for ($i = 1; $i <= 10; $i++):
+for ($i = 1; $i <= 10; $i):
     echo "Faça enquanto $i for menor ou igual a 10 com sintaxe alternativa";
 endfor;
 
 // Ou
 
-for ($i = 1; ; $i++) {
+for ($i = 1; ; $i) {
     if ($i > 10) {
         break;
     }
@@ -147,7 +201,7 @@ for ($i = 1; ; $i++) {
 
 // Ou
 
-for ($i = 1, $j = 0; $i <= 10; $j += $i, print "Mostrar $i = ".$i." passando como parâmetro da função for", $i++);
+for ($i = 1, $j = 0; $i <= 10; $j = $i, print "Mostrar $i = ".$i." passando como parâmetro da função for", $i);
 ```
 
 ##### Python
@@ -156,6 +210,66 @@ for ($i = 1, $j = 0; $i <= 10; $j += $i, print "Mostrar $i = ".$i." passando com
 # faça enquanto x for menor que 10
 for x in xrange(1, 10):
     print x
+```
+
+##### C#
+
+``` cs
+for(int i = 0; i < length; i){
+    //faz algo enquanto i for menor que length
+}
+
+//ou
+
+for(int i = 0; i < length; i)
+    //faz algo em uma linha enquanto i for menor que length
+```
+
+#### ForEach
+
+##### C#
+
+``` cs
+foreach(var item in collection){
+    //faz algo para cada item da collection
+}
+
+//ou
+
+foreach(var item in collection)
+    //faz algo em uma linha para cada item da collection
+```
+
+#### While
+
+##### C#
+
+```cs
+while(condicao){
+    //faz algo enquanto a condicao for verdadeira
+}
+
+//ou
+
+while(condicao)
+    //faz algo em uma linha enquanto a condicao for verdadeira
+```
+
+#### Do-While
+
+ ##### C#
+
+```cs
+do
+{
+    //faz algo e faz outra vez se a condição for verdadeira
+} while(condicao);
+
+//ou
+
+do
+    //faz algo em uma linha e faz outra vez se a condição for verdadeira
+while(condicao);
 ```
 
 ## Licença
