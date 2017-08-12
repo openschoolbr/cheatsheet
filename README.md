@@ -1,5 +1,6 @@
-# Cheatsheet
-Aplicando a mesma lógica em diversas linguagens.
+<p align="center"><img src="https://github.com/openschoolbr/design/raw/master/src/png/black-vertical.png" width="150px" alt="Open School Brasil"></p>
+<h1 align="center">Cheatsheet</h1>
+<p align="center">Aplicando a mesma lógica em diversas linguagens</p>
 
 ## Sumário
 
